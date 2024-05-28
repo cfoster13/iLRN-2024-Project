@@ -160,7 +160,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 6
   TMPFont: {fileID: 0}
-  Icon: {fileID: -2185472608353246101, guid: ddbd6f5991197cb49a940b557f336a3f, type: 3}
+  Icon: {fileID: 8334129412757328680, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &67704217
 Transform:
@@ -194,7 +194,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 5
   TMPFont: {fileID: 0}
-  Icon: {fileID: -2185472608353246101, guid: ddbd6f5991197cb49a940b557f336a3f, type: 3}
+  Icon: {fileID: 8334129412757328680, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704219
 MonoBehaviour:
@@ -213,7 +213,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
-  Icon: {fileID: -2185472608353246101, guid: ddbd6f5991197cb49a940b557f336a3f, type: 3}
+  Icon: {fileID: 8334129412757328680, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704220
 MonoBehaviour:
@@ -232,7 +232,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 0}
-  Icon: {fileID: 4184069848769938869, guid: 005229e3a8a31a84d803e38865341bbb, type: 3}
+  Icon: {fileID: -163425791635743023, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704221
 MonoBehaviour:
@@ -251,7 +251,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 2
   TMPFont: {fileID: 0}
-  Icon: {fileID: -2185472608353246101, guid: ddbd6f5991197cb49a940b557f336a3f, type: 3}
+  Icon: {fileID: 8334129412757328680, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704222
 MonoBehaviour:
@@ -270,7 +270,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 4184069848769938869, guid: 005229e3a8a31a84d803e38865341bbb, type: 3}
+  Icon: {fileID: -163425791635743023, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704223
 MonoBehaviour:
@@ -289,7 +289,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: -2185472608353246101, guid: ddbd6f5991197cb49a940b557f336a3f, type: 3}
+  Icon: {fileID: 8334129412757328680, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &189933190
 GameObject:
@@ -348,11 +348,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_Sprite: {fileID: -5898024392449075139, guid: d73049cd47b52e945ba58717da34d5e3, type: 3}
-=======
-  m_Sprite: {fileID: -1955448553306655712, guid: 35b1c7ba250f39c4a846696bd64c9408, type: 3}
->>>>>>> 7493ed60ad54a713f3e38cf89aa597fc47236f99
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -687,6 +683,18 @@ PrefabInstance:
     - target: {fileID: 3900108755196472087, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112056, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -163425791635743023, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900108755397112062, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 6116449485086562217, guid: d9fa78e8c3c4f2b4b8f7f77ca8426cca, type: 3}
       propertyPath: m_textAlignment
@@ -1084,54 +1092,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 7
-<<<<<<< HEAD
-  json: "{\"Options\":[],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":73,\"yPos\":-229.000015},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Ah,
-    you awaken at last. Welcome, traveler, to the Temple of Echoes. Your arrival
-    here is no mere chance, but a calling\u2014a journey you are destined to undertake.
-    \",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"AI
-    Companion\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":2}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":99,\"yPos\":-100.80014},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Where
-    am I? What is this place? \",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Player\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":3}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":141,\"yPos\":3.1999054},\"ID\":2,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"You
-    stand within a realm that bridges the past and the present, a sanctuary of knowledge
-    lost to time. This temple, ancient and wise, holds secrets waiting to be unveiled
-    by those brave enough to seek them. \",\"parentUIDs\":[1],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"AI
-    Companion\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":4}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":165,\"yPos\":117.199936},\"ID\":3,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"How
-    did I get here? What am I supposed to do? \",\"parentUIDs\":[2],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Player\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":5}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":206,\"yPos\":275.2},\"ID\":4,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Fear
-=======
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":244,"yPos":-343.000061},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Ah,
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":191,"yPos":197.000015},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Ah,
     you awaken at last. Welcome, traveler, to the Temple of Echoes. Your arrival
     here is no mere chance, but a calling - a journey you are destined to undertake.
-    ","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AI
-    Companion","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":270,"yPos":-214.800156},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Where
-    am I? What is this place? ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":310,"yPos":-111.800064},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    ","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":218,"yPos":325.1999},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Where
+    am I? What is this place? ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":258,"yPos":428.2},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"You
     stand within a realm that bridges the past and the present, a sanctuary of knowledge
     lost to time. This temple, ancient and wise, holds secrets waiting to be unveiled
-    by those brave enough to seek them. ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AI
-    Companion","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":336,"yPos":3.19995117},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"How
-    did I get here? What am I supposed to do? ","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":377,"yPos":162.200012},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Fear
->>>>>>> 7493ed60ad54a713f3e38cf89aa597fc47236f99
+    by those brave enough to seek them. ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":284,"yPos":543.2},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    did I get here? What am I supposed to do? ","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":325,"yPos":702.2001},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Fear
     not, for I am here to guide you through the mysteries of this sacred place. Your
     path is one of discovery, to unravel the enigmas drawn on stone and spirit by
     the ancients. Each challenge you face, each puzzle you solve, will bring you
-<<<<<<< HEAD
-    closer to understanding the essence of this temple and your own destiny. \",\"parentUIDs\":[3],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"AI
-    Companion\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":6}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":206,\"yPos\":394.2},\"ID\":5,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Your
+    closer to understanding the essence of this temple and your own destiny. ","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":321,"yPos":820.2001},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Your
     first test lies beyond this chamber. Three trials of wisdom await each a steppingstone
     on your journey of enlightenment. Embrace the challenge, for within it lies the
-    key to unlocking the secrets of the past and forging a path to the future. \",\"parentUIDs\":[4],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"AI
-    Companion\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":185,\"yPos\":526.2},\"ID\":6,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Let
-=======
-    closer to understanding the essence of this temple and your own destiny. ","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AI
-    Companion","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":373,"yPos":280.2},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Your
-    first test lies beyond this chamber. Three trials of wisdom await each a steppingstone
-    on your journey of enlightenment. Embrace the challenge, for within it lies the
-    key to unlocking the secrets of the past and forging a path to the future. ","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AI
-    Companion","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":356,"yPos":412.2},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Let
->>>>>>> 7493ed60ad54a713f3e38cf89aa597fc47236f99
+    key to unlocking the secrets of the past and forging a path to the future. ","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":304,"yPos":952.2001},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Let
     us begin. The first trial will test your understanding of the elements that have
     shaped the world. Pay close attention to the symbols and paintings you encounter;
     they hold the answers you seek. Remember, I am here to assist should you need
-    guidance. ","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"AI
-    Companion","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    guidance. ","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}

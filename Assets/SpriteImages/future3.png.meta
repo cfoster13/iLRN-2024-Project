@@ -1,0 +1,2416 @@
+fileFormatVersion: 2
+guid: 604fe2651a10f504093f48a37b63e4f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3300322034564753142
+    second: future3_0
+  - first:
+      213: -3799935450863139863
+    second: future3_1
+  - first:
+      213: 560018411843200734
+    second: future3_2
+  - first:
+      213: -9090944755738965984
+    second: future3_3
+  - first:
+      213: 8334129412757328680
+    second: future3_4
+  - first:
+      213: 4465215207195033851
+    second: future3_5
+  - first:
+      213: 3138996371361218826
+    second: future3_6
+  - first:
+      213: -163425791635743023
+    second: future3_7
+  - first:
+      213: -780953211503916739
+    second: future3_8
+  - first:
+      213: 5094589563689300367
+    second: future3_9
+  - first:
+      213: 8237612066747433704
+    second: future3_10
+  - first:
+      213: 1574603157415782691
+    second: future3_11
+  - first:
+      213: -9054536243860757318
+    second: future3_12
+  - first:
+      213: 3896022092633343745
+    second: future3_13
+  - first:
+      213: 7660207467517423252
+    second: future3_14
+  - first:
+      213: -1244108312693948411
+    second: future3_15
+  - first:
+      213: -1704057816706856438
+    second: future3_16
+  - first:
+      213: -3117308194188850429
+    second: future3_17
+  - first:
+      213: -2204772422736501700
+    second: future3_18
+  - first:
+      213: 9101386238364766711
+    second: future3_19
+  - first:
+      213: 3928708616748810508
+    second: future3_20
+  - first:
+      213: 978143701522567444
+    second: future3_21
+  - first:
+      213: 8829676687906172170
+    second: future3_22
+  - first:
+      213: -3766209419558307343
+    second: future3_23
+  - first:
+      213: 3857176267498419411
+    second: future3_24
+  - first:
+      213: 117910058479092523
+    second: future3_25
+  - first:
+      213: -3085669130073318062
+    second: future3_26
+  - first:
+      213: -3360479280790902969
+    second: future3_27
+  - first:
+      213: -5644886968327560588
+    second: future3_28
+  - first:
+      213: 1235377017758765909
+    second: future3_29
+  - first:
+      213: 259978545791051045
+    second: future3_30
+  - first:
+      213: 1517349056282259574
+    second: future3_31
+  - first:
+      213: 2733607770416390536
+    second: future3_32
+  - first:
+      213: -7906015485787837394
+    second: future3_33
+  - first:
+      213: -4702304169785573578
+    second: future3_34
+  - first:
+      213: -2401758093666588767
+    second: future3_35
+  - first:
+      213: -4210114990361825478
+    second: future3_36
+  - first:
+      213: -4221561777923290721
+    second: future3_37
+  - first:
+      213: -450924709477222397
+    second: future3_38
+  - first:
+      213: 3019112897992782550
+    second: future3_39
+  - first:
+      213: 1707903561609089736
+    second: future3_40
+  - first:
+      213: -7685463825617711984
+    second: future3_41
+  - first:
+      213: -1347453802836092107
+    second: future3_42
+  - first:
+      213: -4427162689483552222
+    second: future3_43
+  - first:
+      213: 9012136422040582559
+    second: future3_44
+  - first:
+      213: -6473655395042883210
+    second: future3_45
+  - first:
+      213: 8831605048899931714
+    second: future3_46
+  - first:
+      213: 1122437509339329135
+    second: future3_47
+  - first:
+      213: -2474761989676688842
+    second: future3_48
+  - first:
+      213: 2742579488483801195
+    second: future3_49
+  - first:
+      213: -7879439109171131977
+    second: future3_50
+  - first:
+      213: -5037160874194982219
+    second: future3_51
+  - first:
+      213: 4123767166431684585
+    second: future3_52
+  - first:
+      213: -325988667255832632
+    second: future3_53
+  - first:
+      213: -3922846948185960410
+    second: future3_54
+  - first:
+      213: 4864040440110482406
+    second: future3_55
+  - first:
+      213: 6601814606104516472
+    second: future3_56
+  - first:
+      213: -8140838680264336854
+    second: future3_57
+  - first:
+      213: -84688186791856860
+    second: future3_58
+  - first:
+      213: -1775157969956495185
+    second: future3_59
+  - first:
+      213: 1341764291787183469
+    second: future3_60
+  - first:
+      213: 4478774799740675250
+    second: future3_61
+  - first:
+      213: -5528897213569490600
+    second: future3_62
+  - first:
+      213: 8309168727244039576
+    second: future3_63
+  - first:
+      213: 2581540430636096754
+    second: future3_64
+  - first:
+      213: -4835019010510450165
+    second: future3_65
+  - first:
+      213: 1079799758084278979
+    second: future3_66
+  - first:
+      213: -6565740804288833301
+    second: future3_67
+  - first:
+      213: 3852155635090014108
+    second: future3_68
+  - first:
+      213: -4884612225255524574
+    second: future3_69
+  - first:
+      213: 1885994676939498442
+    second: future3_70
+  - first:
+      213: 1587225586905723205
+    second: future3_71
+  - first:
+      213: -7684228019877823723
+    second: future3_72
+  - first:
+      213: -298080739013415876
+    second: future3_73
+  - first:
+      213: -4917190598471662173
+    second: future3_74
+  - first:
+      213: -1768287314354689634
+    second: future3_75
+  - first:
+      213: -2492573571003470563
+    second: future3_76
+  - first:
+      213: -5973006698750589827
+    second: future3_77
+  - first:
+      213: -7260278151455540907
+    second: future3_78
+  - first:
+      213: -2458055175858949633
+    second: future3_79
+  - first:
+      213: 7095662195277947204
+    second: future3_80
+  - first:
+      213: 2156566066299669165
+    second: future3_81
+  - first:
+      213: 6001076422682644653
+    second: future3_82
+  - first:
+      213: -3796101999252160650
+    second: future3_83
+  - first:
+      213: -148485152564121991
+    second: future3_84
+  - first:
+      213: -1625687503939482662
+    second: future3_85
+  - first:
+      213: 3176976181344082917
+    second: future3_86
+  - first:
+      213: -1639552142683332168
+    second: future3_87
+  - first:
+      213: 6012473699495090067
+    second: future3_88
+  - first:
+      213: -4995917162214228652
+    second: future3_89
+  - first:
+      213: -4952035093696096311
+    second: future3_90
+  - first:
+      213: 1962057369501985655
+    second: future3_91
+  - first:
+      213: 8335328738411938395
+    second: future3_92
+  - first:
+      213: -5062233882811138740
+    second: future3_93
+  - first:
+      213: 7147431945979492149
+    second: future3_94
+  - first:
+      213: 3674612524863398969
+    second: future3_95
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: future3_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 503
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a099f5d6896e232d0800000000000000
+      internalID: -3300322034564753142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 503
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e383e127dae34bc0800000000000000
+      internalID: -3799935450863139863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 503
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a79947c595c700800000000000000
+      internalID: 560018411843200734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 503
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0288a7919e976d180800000000000000
+      internalID: -9090944755738965984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 503
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82319877b86c8a370800000000000000
+      internalID: 8334129412757328680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_5
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 503
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0488eb291a7fd30800000000000000
+      internalID: 4465215207195033851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 503
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01c9329194ff8b20800000000000000
+      internalID: 3138996371361218826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 503
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de1a6ebb156bbdf0800000000000000
+      internalID: -163425791635743023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 503
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39cb1a113f7925f0800000000000000
+      internalID: -780953211503916739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 503
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81fc14473e93b640800000000000000
+      internalID: 5094589563689300367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_10
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 503
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2c3fba780e15270800000000000000
+      internalID: 8237612066747433704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 503
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329e9f3aa3d1ad510800000000000000
+      internalID: 1574603157415782691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 431
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4a7ca5243d75280800000000000000
+      internalID: -9054536243860757318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 431
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1070c748373711630800000000000000
+      internalID: 3896022092633343745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 431
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eab2f2b168e4a60800000000000000
+      internalID: 7660207467517423252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 431
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50044c7c41a0cbee0800000000000000
+      internalID: -1244108312693948411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 431
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ac576b178f958e0800000000000000
+      internalID: -1704057816706856438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 431
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b85fda6b81db4d0800000000000000
+      internalID: -3117308194188850429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_18
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 431
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34a634b9231761e0800000000000000
+      internalID: -2204772422736501700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_19
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 431
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f15c55009e9e4e70800000000000000
+      internalID: 9101386238364766711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 431
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c014457fba3958630800000000000000
+      internalID: 3928708616748810508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_21
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 431
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411d98c9380139d00800000000000000
+      internalID: 978143701522567444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_22
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 431
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0de1308a20598a70800000000000000
+      internalID: 8829676687906172170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_23
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 431
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f93f75bc7cbbbbc0800000000000000
+      internalID: -3766209419558307343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 359
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d47f4c0161778530800000000000000
+      internalID: 3857176267498419411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 359
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23871fc296e2a100800000000000000
+      internalID: 117910058479092523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 359
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d579756408d25d0800000000000000
+      internalID: -3085669130073318062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 359
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747e56116ed2d51d0800000000000000
+      internalID: -3360479280790902969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 359
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472aa9fc53559a1b0800000000000000
+      internalID: -5644886968327560588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_29
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 359
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55351333ad0f42110800000000000000
+      internalID: 1235377017758765909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 359
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52529172c11ab9300800000000000000
+      internalID: 259978545791051045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_31
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 359
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6707afb6de4be0510800000000000000
+      internalID: 1517349056282259574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_32
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 359
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881aaeea8c9bfe520800000000000000
+      internalID: 2733607770416390536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_33
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 359
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ce0e4bdc0384290800000000000000
+      internalID: -7906015485787837394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_34
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 359
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fb71e754f0ebeb0800000000000000
+      internalID: -4702304169785573578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_35
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 359
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a765962dbd3baed0800000000000000
+      internalID: -2401758093666588767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 287
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fafefe8baa295c0800000000000000
+      internalID: -4210114990361825478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 287
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9904850eeff965c0800000000000000
+      internalID: -4221561777923290721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 287
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308f927ad5efdb9f0800000000000000
+      internalID: -450924709477222397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_39
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 287
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2f8ad4f2b06e920800000000000000
+      internalID: 3019112897992782550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_40
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 287
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2955c8d31b3b710800000000000000
+      internalID: 1707903561609089736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 287
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c01f3be5fb75590800000000000000
+      internalID: -7685463825617711984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_42
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 287
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b94bac7e1ec4de0800000000000000
+      internalID: -1347453802836092107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 287
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a48727dfe8f82c0800000000000000
+      internalID: -4427162689483552222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_44
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 287
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99b617d35a811d70800000000000000
+      internalID: 9012136422040582559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_45
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 287
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6798d2497b4f826a0800000000000000
+      internalID: -6473655395042883210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_46
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 287
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e0a38000a209a70800000000000000
+      internalID: 8831605048899931714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_47
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 287
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62beb2c7f2b39f00800000000000000
+      internalID: 1122437509339329135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 215
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a9ead0511e7add0800000000000000
+      internalID: -2474761989676688842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_49
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 215
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68795393899f0620800000000000000
+      internalID: 2742579488483801195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_50
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 215
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9c88490eb96a290800000000000000
+      internalID: -7879439109171131977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_51
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 215
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baac197fd8681ab0800000000000000
+      internalID: -5037160874194982219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_52
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 215
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e76493a3609a3930800000000000000
+      internalID: 4123767166431684585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 215
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfb967c80bd97bf0800000000000000
+      internalID: -325988667255832632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_54
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 215
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62096291c7f3f89c0800000000000000
+      internalID: -3922846948185960410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_55
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 215
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e38bed620b808340800000000000000
+      internalID: 4864040440110482406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_56
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 215
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87758d5086b5e9b50800000000000000
+      internalID: 6601814606104516472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_57
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 215
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a95113a5ee50f80800000000000000
+      internalID: -8140838680264336854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_58
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 215
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4257995fa8023def0800000000000000
+      internalID: -84688186791856860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_59
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 215
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa02a844b3f5d57e0800000000000000
+      internalID: -1775157969956495185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_60
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 143
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d655740b387ee9210800000000000000
+      internalID: 1341764291787183469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 143
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4a38763fdc72e30800000000000000
+      internalID: 4478774799740675250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 143
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8512b8117496543b0800000000000000
+      internalID: -5528897213569490600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_63
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 143
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8956a2efee8105370800000000000000
+      internalID: 8309168727244039576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_64
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 143
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc9f55185973d320800000000000000
+      internalID: 2581540430636096754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_65
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 143
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b029344b3df86ecb0800000000000000
+      internalID: -4835019010510450165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_66
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 143
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca8a21b8283cfe00800000000000000
+      internalID: 1079799758084278979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_67
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 143
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be89319768dc1e4a0800000000000000
+      internalID: -6565740804288833301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_68
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 143
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f3f09f32b957530800000000000000
+      internalID: 3852155635090014108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_69
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 143
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2273d189f0f563cb0800000000000000
+      internalID: -4884612225255524574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_70
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 143
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3a14f8a266c2a10800000000000000
+      internalID: 1885994676939498442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_71
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 143
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5413de50345f60610800000000000000
+      internalID: 1587225586905723205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 71
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b341624532c5590800000000000000
+      internalID: -7684228019877823723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_73
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 71
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c28bca5210ddbf0800000000000000
+      internalID: -298080739013415876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_74
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 71
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5c43df331a2cbb0800000000000000
+      internalID: -4917190598471662173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_75
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 71
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e992f0f6e08c577e0800000000000000
+      internalID: -1768287314354689634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_76
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 71
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dafcb1b89986dd0800000000000000
+      internalID: -2492573571003470563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_77
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 71
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7441f7cd0e9b1da0800000000000000
+      internalID: -5973006698750589827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_78
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 71
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55976f3ec7f4e3b90800000000000000
+      internalID: -7260278151455540907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_79
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 71
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1fd9447db33edd0800000000000000
+      internalID: -2458055175858949633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_80
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 71
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441e5b31c2bd87260800000000000000
+      internalID: 7095662195277947204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_81
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 71
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa047c4969aded10800000000000000
+      internalID: 2156566066299669165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_82
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 71
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da098fb163b184350800000000000000
+      internalID: 6001076422682644653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_83
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 71
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fbc632859815bc0800000000000000
+      internalID: -3796101999252160650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_84
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97eeefa5a8970fdf0800000000000000
+      internalID: -148485152564121991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_85
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb45e314d56079e0800000000000000
+      internalID: -1625687503939482662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_86
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb14ec2103e61c20800000000000000
+      internalID: 3176976181344082917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_87
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b121a053042f39e0800000000000000
+      internalID: -1639552142683332168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_88
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39798c769f8907350800000000000000
+      internalID: 6012473699495090067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_89
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d71fa7fcfeaaab0800000000000000
+      internalID: -4995917162214228652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_90
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7d9fcb156d64bb0800000000000000
+      internalID: -4952035093696096311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_91
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b6a1a38c0aa3b10800000000000000
+      internalID: 1962057369501985655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_92
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52062b33590da370800000000000000
+      internalID: 8335328738411938395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_93
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 0
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d781dba155fb9b0800000000000000
+      internalID: -5062233882811138740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_94
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 0
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537f2647c77c03360800000000000000
+      internalID: 7147431945979492149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: future3_95
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9342fa75f98def230800000000000000
+      internalID: 3674612524863398969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
