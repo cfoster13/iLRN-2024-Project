@@ -168,4 +168,12 @@ public class SubmitLetter : MonoBehaviour
         DisplayLetter('J');
     }
 
+    public void ResetMessageText() // Reset the text when user clicks on button
+    {
+        messageText.text = string.Empty;
+        letters.Clear();
+        messageText.text = "Input: ";
+        
+    }
+
 }
