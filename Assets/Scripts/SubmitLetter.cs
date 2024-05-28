@@ -21,6 +21,8 @@ public class SubmitLetter : MonoBehaviour
     public Text outcomeText;
     TorchBehaviour tb;
 
+    public HealthSystem healthSystem;
+
     
 
 
@@ -84,6 +86,8 @@ public class SubmitLetter : MonoBehaviour
             //TELL THEM TO LIGHT UP
             outcomeText.gameObject.SetActive(true);
             GameManager.Instance.PlayIncorrectAnswerSound();
+            // Lose a life
+            healthSystem.LoseHealth();
             Debug.Log("Light a torch!");
             return;
         }
