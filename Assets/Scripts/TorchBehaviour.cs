@@ -8,6 +8,7 @@ public class TorchBehaviour : MonoBehaviour
     public GameObject fireParticlePrefab; // reference to the fire particle system prefab
     public Vector3 fireParticleOffset = new Vector3(0, 1, 0); // Offset for the particle system
     public List<GameObject> torches;
+    public AudioClip fireSound;
 
     public bool torchesLoaded;
 
@@ -33,7 +34,16 @@ public class TorchBehaviour : MonoBehaviour
                 Vector3 particlePosition = child.transform.position + fireParticleOffset;
                 // Activate the fire particle system instead of changing the sprite
                 Instantiate(fireParticlePrefab, particlePosition, Quaternion.identity, child.transform);
-                
+
+                // Play the fire sound
+                AudioSource audioSource = child.GetComponent<AudioSource>();
+
+                if (audioSource != null && fireSound != null)
+                {
+                    audioSource.clip = fireSound;
+                    audioSource.Play();
+                }
+
                 child.GetComponent<TorchIsHit>().isLit = true;
             }
         }

@@ -7,6 +7,7 @@ public class infoButton : MonoBehaviour
 {
     public Button helpButton;
     public Image helpInfo;
+    
 
     bool helpInfoDisplayed = false;
 
@@ -25,6 +26,7 @@ public class infoButton : MonoBehaviour
     {
         if (helpInfoDisplayed == false)
         {
+            
             helpInfo.gameObject.SetActive(true);
             helpInfoDisplayed = true;
         }
@@ -33,6 +35,9 @@ public class infoButton : MonoBehaviour
             helpInfo.gameObject.SetActive(false);
             helpInfoDisplayed = false;
         }
-        
+
+        // Play the help button click sound effect
+        GameManager.Instance.PlayHelpButtonClick();
+
     }
 }

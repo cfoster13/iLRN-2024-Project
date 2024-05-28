@@ -21,6 +21,9 @@ public class SubmitLetter : MonoBehaviour
     public Text outcomeText;
     TorchBehaviour tb;
 
+    
+
+
     List<GameObject> TorchesA = new List<GameObject>();
     List<GameObject> TorchesB = new List<GameObject>();
 
@@ -80,6 +83,7 @@ public class SubmitLetter : MonoBehaviour
         {
             //TELL THEM TO LIGHT UP
             outcomeText.gameObject.SetActive(true);
+            GameManager.Instance.PlayIncorrectAnswerSound();
             Debug.Log("Light a torch!");
             return;
         }
@@ -88,6 +92,8 @@ public class SubmitLetter : MonoBehaviour
         torchBCount = (torchBCount == 0) ? 0 : torchBCount - 1;
 
         DisplayLetter(torchACount, torchBCount);
+
+        GameManager.Instance.PlaySubmitButtonClick();
     }
 
     void DisplayLetter(char letter)
@@ -134,6 +140,7 @@ public class SubmitLetter : MonoBehaviour
         {
             outcomeText.text = "You have made the word FIRE!";
             outcomeText.gameObject.SetActive(true);
+            GameManager.Instance.PlayCorrectAnswerSound();
             Debug.Log("You have made the word FIRE!");
         }
 
@@ -154,7 +161,17 @@ public class SubmitLetter : MonoBehaviour
         {
             child.GetComponent<SpriteRenderer>().sprite = normalTorchImage;
             child.GetComponent<TorchIsHit>().isLit = false;
+
+            // Reset the fire particles
+            Transform fireParticles = child.transform.Find("Flame Particle System(Clone)");
+            if (fireParticles != null)
+            {
+                Destroy(fireParticles.gameObject);
+            }
         }
+        // Play reset button sound effect
+        GameManager.Instance.PlayResetButtonClick();
+
         outcomeText.gameObject.SetActive(false);
     }
 
@@ -173,6 +190,7 @@ public class SubmitLetter : MonoBehaviour
         messageText.text = string.Empty;
         letters.Clear();
         messageText.text = "Input: ";
+        GameManager.Instance.PlayResetButtonClick();
         
     }
 
