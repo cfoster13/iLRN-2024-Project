@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6666933608a30249acd98d3515185f1
+guid: 6da5a197b173e2a40b352cef532110de
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7325977337368480381
-    second: PhryctoriaArchmaester_Prometheus_0
+      213: -5949684490969082323
+    second: buttonImage_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PhryctoriaArchmaester_Prometheus_0
+      name: buttonImage_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 0
-        width: 2560
-        height: 1440
+        width: 1066
+        height: 444
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7a096ad2991ba560800000000000000
-      internalID: 7325977337368480381
+      spriteID: d26132e6a797e6da0800000000000000
+      internalID: -5949684490969082323
       vertices: []
       indices: 
       edges: []
@@ -128,8 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      PhryctoriaArchmaester_Prometheus_0: 7325977337368480381
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

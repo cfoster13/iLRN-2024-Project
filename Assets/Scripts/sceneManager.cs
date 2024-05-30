@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class sceneManager : MonoBehaviour
 {
-
+    
     public void loadNextScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -20,5 +20,20 @@ public class sceneManager : MonoBehaviour
         {
             Debug.LogWarning("Next scene index is out of range.");
         }
+    }
+
+    public void loadFirstLevel()
+    {
+        Debug.Log("Loading back to first level");
+        SceneManager.LoadScene("Scene2");
+
+
+    }
+
+    public void quitGame()
+    {
+        Debug.Log("Quitting game");
+        Application.Quit();
+    
     }
 }
