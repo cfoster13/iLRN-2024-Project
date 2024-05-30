@@ -41,6 +41,10 @@ public class GameAndLevelManager : MonoBehaviour
     public Button iButton;
     public Button jButton;
 
+    [Space]
+
+    public GameObject levelComplete1;
+
     TorchBehaviour tb;
 
     List<GameObject> TorchesA = new List<GameObject>();
@@ -49,9 +53,9 @@ public class GameAndLevelManager : MonoBehaviour
     int torchACount = 0;
     int torchBCount = 0;
 
-    
-
     bool fireCompleted;
+    bool prometheusIsShown;
+    float pauseCounter = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -79,9 +83,26 @@ public class GameAndLevelManager : MonoBehaviour
             }
             tb.torchesLoaded = false;
         }
+
         if (fireCompleted)
         {
             StartCoroutine(showPrometheus());
+        }
+
+        if (prometheusIsShown)
+        {
+            pauseCounter += Time.deltaTime;
+
+            if (pauseCounter >= 2.0f)
+            {
+                if (level == 1)
+                {
+                    levelComplete1.SetActive(true);
+                }
+
+                pauseCounter = 0.0f;
+                prometheusIsShown = false;
+            }
         }
     }
 
@@ -164,7 +185,7 @@ public class GameAndLevelManager : MonoBehaviour
         messageText.text = "Input: " + sentence;
 
         //LOOK FOR THE WORD 'FIRE' FOR TUTORIAL
-        if (sentence == "FIRE")
+        if (sentence == "I")
         {
             GameManager.Instance.PlayCorrectAnswerSound();
             prometheusBackground.SetActive(true);
@@ -234,7 +255,7 @@ public class GameAndLevelManager : MonoBehaviour
 
     public IEnumerator showPrometheus()
     {
-        while (prometheusBackground.GetComponent<SpriteRenderer>().color.a < 255)
+        while (prometheusBackground.GetComponent<SpriteRenderer>().color.a < 3)
         {
             var normalColour = normalBackground.GetComponent<SpriteRenderer>().color;
             normalColour.a -= 0.00001f;
@@ -246,9 +267,10 @@ public class GameAndLevelManager : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
-        fireCompleted = false;
 
-        
+        fireCompleted = false;
+        prometheusIsShown = true;
+
     }
 
 }
