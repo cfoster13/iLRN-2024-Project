@@ -59,15 +59,15 @@ public class HealthSystem : MonoBehaviour
         audioSource.clip = gameOverMusicClip;
         audioSource.Play();
 
-        // MAKE A GAME OVER SCREEN!!!
+        
 
         // Load game over screen after a short delay to let the game over music play
-        // StartCoroutine(LoadGameOverScene());
+        StartCoroutine(LoadGameOverScene());
     }
 
     private IEnumerator LoadGameOverScene()
     {
         yield return new WaitForSeconds(1f); // Adjust the delay as needed
-        SceneManager.LoadScene(gameOverSceneName);
+        SceneManager.LoadScene("GameOver");
     }
 }
