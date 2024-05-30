@@ -244,7 +244,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 3
   TMPFont: {fileID: 0}
-  Icon: {fileID: -163425791635743023, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
+  Icon: {fileID: 7388818750835552551, guid: 67da78a300012ef4094edf9e67141a04, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704221
 MonoBehaviour:
@@ -282,7 +282,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: -163425791635743023, guid: 604fe2651a10f504093f48a37b63e4f8, type: 3}
+  Icon: {fileID: 7388818750835552551, guid: 67da78a300012ef4094edf9e67141a04, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &67704223
 MonoBehaviour:
@@ -1302,26 +1302,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 7
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":89,"yPos":180},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Ah,
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":381,"yPos":230.000015},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Ah,
     you awaken at last. Welcome, traveler, to the Temple of Echoes. Your arrival
     here is no mere chance, but a calling - a journey you are destined to undertake.
     ","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
-    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":116,"yPos":308.199829},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Where
-    am I? What is this place? ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":156,"yPos":411.199951},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":408,"yPos":359.19986},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Where
+    am I? What is this place? ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":false,"xPos":448,"yPos":461.199951},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"You
     stand within a realm that bridges the past and the present, a sanctuary of knowledge
     lost to time. This temple, ancient and wise, holds secrets waiting to be unveiled
     by those brave enough to seek them. ","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
-    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":182,"yPos":526.2},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"How
-    did I get here? What am I supposed to do? ","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":223,"yPos":685.2001},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Fear
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":474,"yPos":576.2},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    did I get here? What am I supposed to do? ","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Player","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":5}],"EditorInfo":{"isRoot":false,"xPos":515,"yPos":735.2001},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"Fear
     not, for I am here to guide you through the mysteries of this sacred place. Your
     path is one of discovery, to unravel the enigmas drawn on stone and spirit by
     the ancients. Each challenge you face, each puzzle you solve, will bring you
     closer to understanding the essence of this temple and your own destiny. ","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
-    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":219,"yPos":803.2001},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Your
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":511,"yPos":853.2001},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"Your
     first test lies beyond this chamber. Three trials of wisdom await each a steppingstone
     on your journey of enlightenment. Embrace the challenge, for within it lies the
     key to unlocking the secrets of the past and forging a path to the future. ","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Research
-    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":202,"yPos":935.2001},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Let
+    scientist","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":494,"yPos":985.2001},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Let
     us begin. The first trial will test your understanding of the elements that have
     shaped the world. Pay close attention to the symbols and paintings you encounter;
     they hold the answers you seek. Remember, I am here to assist should you need
