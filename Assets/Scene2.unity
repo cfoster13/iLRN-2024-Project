@@ -6279,7 +6279,7 @@ GameObject:
   - component: {fileID: 1857018059}
   - component: {fileID: 1857018061}
   m_Layer: 5
-  m_Name: HintText
+  m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7089,7 +7089,7 @@ MonoBehaviour:
   messageText: {fileID: 1476768430}
   outcomeText: {fileID: 284706016}
   hintBox: {fileID: 701198452}
-  hintText: {fileID: 1857018059}
+  hintText: {fileID: 409124714}
   healthSystem: {fileID: 6971016421983357616}
   iButton: {fileID: 1928690237}
   jButton: {fileID: 555989112}
