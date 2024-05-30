@@ -4,8 +4,10 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SubmitLetter : MonoBehaviour
+public class GameAndLevelManager : MonoBehaviour
 {
+    public int level;
+
     char[,] letterMatrix = {
         {'A', 'B', 'C', 'D', 'E'},
         {'F', 'G', 'H', '#', 'K'},
@@ -15,16 +17,31 @@ public class SubmitLetter : MonoBehaviour
 
     List<char> letters = new List<char>();
 
+    public GameObject normalBackground;
+    public GameObject prometheusBackground;
+
+    [Space]
+
     public GameObject Torches;
     public Sprite normalTorchImage;
     public Text messageText;
     public Text outcomeText;
-    TorchBehaviour tb;
+
+    [Space]
+
+    public GameObject hintBox;
+    public Text hintText;
+
+    [Space]
 
     public HealthSystem healthSystem;
 
-    
+    [Space]
 
+    public Button iButton;
+    public Button jButton;
+
+    TorchBehaviour tb;
 
     List<GameObject> TorchesA = new List<GameObject>();
     List<GameObject> TorchesB = new List<GameObject>();
@@ -32,13 +49,16 @@ public class SubmitLetter : MonoBehaviour
     int torchACount = 0;
     int torchBCount = 0;
 
-    public Button iButton;
-    public Button jButton;
+    
+
+    bool fireCompleted;
 
     // Start is called before the first frame update
     void Start()
     {
         tb = Torches.GetComponent<TorchBehaviour>();
+
+        level = 1;
 
     }
     void Update()
@@ -58,6 +78,10 @@ public class SubmitLetter : MonoBehaviour
                 }
             }
             tb.torchesLoaded = false;
+        }
+        if (fireCompleted)
+        {
+            StartCoroutine(showPrometheus());
         }
     }
 
@@ -142,10 +166,9 @@ public class SubmitLetter : MonoBehaviour
         //LOOK FOR THE WORD 'FIRE' FOR TUTORIAL
         if (sentence == "FIRE")
         {
-            outcomeText.text = "You have made the word FIRE!";
-            outcomeText.gameObject.SetActive(true);
             GameManager.Instance.PlayCorrectAnswerSound();
-            Debug.Log("You have made the word FIRE!");
+            prometheusBackground.SetActive(true);
+            fireCompleted = true;
         }
 
         ResetTorches();
@@ -189,12 +212,42 @@ public class SubmitLetter : MonoBehaviour
         DisplayLetter('J');
     }
 
+    public void HintButtonPressed()
+    {
+        Debug.Log(level);
+        hintBox.SetActive(true);
+
+        if (level == 1)
+        {
+            hintText.text = "I am not alive, but I grow. I don't have lungs, but I need air. I don't have a mouth, but water kills me. What am I?";
+        }
+    }
+
     public void ResetMessageText() // Reset the text when user clicks on button
     {
         messageText.text = string.Empty;
         letters.Clear();
         messageText.text = "Input: ";
         GameManager.Instance.PlayResetButtonClick();
+        
+    }
+
+    public IEnumerator showPrometheus()
+    {
+        while (prometheusBackground.GetComponent<SpriteRenderer>().color.a < 255)
+        {
+            var normalColour = normalBackground.GetComponent<SpriteRenderer>().color;
+            normalColour.a -= 0.00001f;
+            var prometheusColour = prometheusBackground.GetComponent<SpriteRenderer>().color;
+            prometheusColour.a += 0.00001f;
+
+            normalBackground.GetComponent<SpriteRenderer>().color = normalColour;
+            prometheusBackground.GetComponent<SpriteRenderer>().color = prometheusColour;
+
+            yield return new WaitForEndOfFrame();
+        }
+        fireCompleted = false;
+
         
     }
 
