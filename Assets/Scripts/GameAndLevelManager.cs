@@ -30,6 +30,7 @@ public class GameAndLevelManager : MonoBehaviour
 
     [Space]
 
+    public GameObject submitButton;
     public GameObject Torches;
     public Sprite normalTorchImage;
     public Text messageText;
@@ -230,6 +231,7 @@ public class GameAndLevelManager : MonoBehaviour
         //LOOK FOR THE WORD 'FIRE' FOR TUTORIAL
         if (sentence == matchingWord)
         {
+            submitButton.SetActive(false);
             GameManager.Instance.PlayCorrectAnswerSound();
             backgroundImage.SetActive(true);
             wordCompleted = true;
@@ -278,12 +280,9 @@ public class GameAndLevelManager : MonoBehaviour
 
     public void HintButtonPressed()
     {
-        Debug.Log(level);
-        hintBox.SetActive(true);
-
         if (level == 1)
         {
-            hintText.text = "I am not alive, but I grow. I don't have lungs, but I need air. I don't have a mouth, but water kills me. What am I?";
+            hintText.text = "I am not alive, but I grow.\r\nI don't have lungs, but I need air.\r\nI don't have a mouth, but water kills me.\r\nWhat am I?";
         }
         if (level == 2)
         {
@@ -293,6 +292,9 @@ public class GameAndLevelManager : MonoBehaviour
         {
             hintText.text = "I am a place of gods on high;\r\nwhere Zeus and Hera rule the sky;\r\nmy peak is known, a mythic dome;\r\nin Ancient Greece, I was their home.\r\nWhat am I?";
         }
+
+        Debug.Log(level);
+        hintBox.SetActive(true);
     }
 
     public void ResetMessageText() // Reset the text when user clicks on button
@@ -343,11 +345,12 @@ public class GameAndLevelManager : MonoBehaviour
         if (level == 4)
         {
             //FINISH THE GAME
+            return;
         }
 
         //RESETTING BACKGROUND
         var resettingTransparencyNormal = normalBackground.GetComponent<SpriteRenderer>().color;
-        resettingTransparencyNormal.a = 163;
+        resettingTransparencyNormal.a = 0.63921568627450980392156862745098f;
 
         normalBackground.GetComponent<SpriteRenderer>().color = resettingTransparencyNormal;
 
@@ -356,7 +359,7 @@ public class GameAndLevelManager : MonoBehaviour
 
         backgroundImage.GetComponent<SpriteRenderer>().color = resettingTransparencyPrometheus;
 
-        Debug.Log(level);
+        submitButton.SetActive(true);
 
         ResetTorches();
         ResetMessageText();
