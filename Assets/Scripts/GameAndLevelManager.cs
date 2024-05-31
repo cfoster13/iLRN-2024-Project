@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -8,6 +9,10 @@ public class GameAndLevelManager : MonoBehaviour
 {
     public int level;
 
+    [Space]
+
+    public string matchingWord;
+
     char[,] letterMatrix = {
         {'A', 'B', 'C', 'D', 'E'},
         {'F', 'G', 'H', '#', 'K'},
@@ -17,8 +22,11 @@ public class GameAndLevelManager : MonoBehaviour
 
     List<char> letters = new List<char>();
 
+    [Space]
+
     public GameObject normalBackground;
-    public GameObject prometheusBackground;
+    GameObject backgroundImage;
+    public List<GameObject> backgroundImages = new List<GameObject>();
 
     [Space]
 
@@ -44,6 +52,8 @@ public class GameAndLevelManager : MonoBehaviour
     [Space]
 
     public GameObject levelComplete1;
+    public GameObject levelComplete2;
+    public GameObject levelComplete3;
 
     TorchBehaviour tb;
 
@@ -53,8 +63,8 @@ public class GameAndLevelManager : MonoBehaviour
     int torchACount = 0;
     int torchBCount = 0;
 
-    bool fireCompleted;
-    bool prometheusIsShown;
+    bool wordCompleted;
+    bool backgroundIsShown;
     float pauseCounter = 0.0f;
 
     // Start is called before the first frame update
@@ -67,6 +77,29 @@ public class GameAndLevelManager : MonoBehaviour
     }
     void Update()
     {
+        //Set word
+        if (level == 1)
+        {
+            matchingWord = "F";
+            backgroundImage = backgroundImages[0];
+        }
+
+        //Set word
+        if (level == 2)
+        {
+            //WORD = GREEK
+            matchingWord = "G";
+            backgroundImage = backgroundImages[1];
+        }
+
+        //Set word
+        if (level == 3)
+        {
+            //WORD = ATHENS
+            matchingWord = "A";
+            backgroundImage = backgroundImages[2];
+        }
+
         if (tb.torchesLoaded)
         {
             if (tb != null)
@@ -84,12 +117,12 @@ public class GameAndLevelManager : MonoBehaviour
             tb.torchesLoaded = false;
         }
 
-        if (fireCompleted)
+        if (wordCompleted)
         {
             StartCoroutine(showPrometheus());
         }
 
-        if (prometheusIsShown)
+        if (backgroundIsShown)
         {
             pauseCounter += Time.deltaTime;
 
@@ -100,8 +133,18 @@ public class GameAndLevelManager : MonoBehaviour
                     levelComplete1.SetActive(true);
                 }
 
+                if (level == 2)
+                {
+                    levelComplete2.SetActive(true);
+                }
+
+                if (level == 3)
+                {
+                    levelComplete3.SetActive(true);
+                }
+
                 pauseCounter = 0.0f;
-                prometheusIsShown = false;
+                backgroundIsShown = false;
             }
         }
     }
@@ -185,11 +228,11 @@ public class GameAndLevelManager : MonoBehaviour
         messageText.text = "Input: " + sentence;
 
         //LOOK FOR THE WORD 'FIRE' FOR TUTORIAL
-        if (sentence == "I")
+        if (sentence == matchingWord)
         {
             GameManager.Instance.PlayCorrectAnswerSound();
-            prometheusBackground.SetActive(true);
-            fireCompleted = true;
+            backgroundImage.SetActive(true);
+            wordCompleted = true;
         }
 
         ResetTorches();
@@ -242,6 +285,14 @@ public class GameAndLevelManager : MonoBehaviour
         {
             hintText.text = "I am not alive, but I grow. I don't have lungs, but I need air. I don't have a mouth, but water kills me. What am I?";
         }
+        if (level == 2)
+        {
+            hintText.text = "In ancient Greece, a city strong;\r\nwhere warriors trained to fight lifelong;\r\nbrave and fierce, their name's well known;\r\nin battles, they have always shone.\r\nWhat is this city's name in part?";
+        }
+        if (level == 3)
+        {
+            hintText.text = "I am a place of gods on high;\r\nwhere Zeus and Hera rule the sky;\r\nmy peak is known, a mythic dome;\r\nin Ancient Greece, I was their home.\r\nWhat am I?";
+        }
     }
 
     public void ResetMessageText() // Reset the text when user clicks on button
@@ -255,22 +306,60 @@ public class GameAndLevelManager : MonoBehaviour
 
     public IEnumerator showPrometheus()
     {
-        while (prometheusBackground.GetComponent<SpriteRenderer>().color.a < 3)
+        while (backgroundImage.GetComponent<SpriteRenderer>().color.a < 3)
         {
             var normalColour = normalBackground.GetComponent<SpriteRenderer>().color;
             normalColour.a -= 0.00001f;
-            var prometheusColour = prometheusBackground.GetComponent<SpriteRenderer>().color;
+            var prometheusColour = backgroundImage.GetComponent<SpriteRenderer>().color;
             prometheusColour.a += 0.00001f;
 
             normalBackground.GetComponent<SpriteRenderer>().color = normalColour;
-            prometheusBackground.GetComponent<SpriteRenderer>().color = prometheusColour;
+            backgroundImage.GetComponent<SpriteRenderer>().color = prometheusColour;
 
             yield return new WaitForEndOfFrame();
         }
 
-        fireCompleted = false;
-        prometheusIsShown = true;
+        wordCompleted = false;
+        backgroundIsShown = true;
+    }
 
+    //Continue to next level
+    public void ContinueButtonPressed()
+    {
+        level++;
+
+        if (level == 2)
+        {
+            levelComplete1.SetActive(false);
+
+        }
+
+        if (level == 3)
+        {
+            levelComplete2.SetActive(false);
+
+        }
+
+        if (level == 4)
+        {
+            //FINISH THE GAME
+        }
+
+        //RESETTING BACKGROUND
+        var resettingTransparencyNormal = normalBackground.GetComponent<SpriteRenderer>().color;
+        resettingTransparencyNormal.a = 163;
+
+        normalBackground.GetComponent<SpriteRenderer>().color = resettingTransparencyNormal;
+
+        var resettingTransparencyPrometheus = backgroundImage.GetComponent<SpriteRenderer>().color;
+        resettingTransparencyPrometheus.a = 0;
+
+        backgroundImage.GetComponent<SpriteRenderer>().color = resettingTransparencyPrometheus;
+
+        Debug.Log(level);
+
+        ResetTorches();
+        ResetMessageText();
     }
 
 }
