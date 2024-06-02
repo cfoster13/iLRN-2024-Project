@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -66,6 +67,9 @@ public class GameAndLevelManager : MonoBehaviour
 
     bool wordCompleted;
     bool backgroundIsShown;
+
+    public bool inALevel;
+
     float pauseCounter = 0.0f;
 
     // Start is called before the first frame update
@@ -78,6 +82,8 @@ public class GameAndLevelManager : MonoBehaviour
     }
     void Update()
     {
+        Debug.Log(backgroundIsShown);
+
         //Set word
         if (level == 1)
         {
@@ -120,7 +126,11 @@ public class GameAndLevelManager : MonoBehaviour
 
         if (wordCompleted)
         {
+            inALevel = false;
             StartCoroutine(showPrometheus());
+        } else
+        {
+            inALevel = true;
         }
 
         if (backgroundIsShown)
@@ -321,7 +331,6 @@ public class GameAndLevelManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         }
 
-        wordCompleted = false;
         backgroundIsShown = true;
     }
 
@@ -329,6 +338,10 @@ public class GameAndLevelManager : MonoBehaviour
     public void ContinueButtonPressed()
     {
         level++;
+
+        backgroundIsShown = false;
+        wordCompleted = false;
+        inALevel = true;
 
         if (level == 2)
         {
