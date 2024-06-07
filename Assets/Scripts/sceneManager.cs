@@ -25,7 +25,7 @@ public class sceneManager : MonoBehaviour
     public void loadFirstLevel()
     {
         Debug.Log("Loading back to first level");
-        SceneManager.LoadScene("EndScene");
+        SceneManager.LoadScene("LevelScene");
 
 
     }
