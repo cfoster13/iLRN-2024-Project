@@ -87,7 +87,7 @@ public class GameAndLevelManager : MonoBehaviour
         //Set word
         if (level == 1)
         {
-            matchingWord = "F";
+            matchingWord = "FIRE";
             backgroundImage = backgroundImages[0];
         }
 
@@ -95,7 +95,7 @@ public class GameAndLevelManager : MonoBehaviour
         if (level == 2)
         {
             //WORD = SPARTA
-            matchingWord = "A";
+            matchingWord = "SPARTA";
             backgroundImage = backgroundImages[1];
         }
 
@@ -103,7 +103,7 @@ public class GameAndLevelManager : MonoBehaviour
         if (level == 3)
         {
             //WORD = OLYMPIA
-            matchingWord = "O";
+            matchingWord = "OLYMPIA";
             backgroundImage = backgroundImages[2];
         }
 
