@@ -10219,7 +10219,7 @@ MonoBehaviour:
   - {fileID: 1006912491}
   submitButton: {fileID: 93772407}
   Torches: {fileID: 706918946}
-  normalTorchImage: {fileID: 21300000, guid: 0f18bf06fe616ee43ba6e6046703f7cc, type: 3}
+  normalTorchImage: {fileID: 4108292245702909576, guid: dab299c6ecb6fa144b73f35e855d1e11, type: 3}
   messageText: {fileID: 1476768430}
   outcomeText: {fileID: 284706016}
   hintBox: {fileID: 701198452}
