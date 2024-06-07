@@ -1,14 +1,13 @@
-using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameAndLevelManager : MonoBehaviour
 {
     public int level;
+    public int points;
 
     [Space]
 
@@ -53,6 +52,8 @@ public class GameAndLevelManager : MonoBehaviour
 
     [Space]
 
+    public GameObject timerPanel;
+    public GameObject pointsPanel;
     public GameObject levelComplete1;
     public GameObject levelComplete2;
     public GameObject levelComplete3;
@@ -67,8 +68,7 @@ public class GameAndLevelManager : MonoBehaviour
 
     bool wordCompleted;
     bool backgroundIsShown;
-
-    public bool inALevel;
+    [NonSerialized] public bool inALevel;
 
     float pauseCounter = 0.0f;
 
@@ -87,7 +87,7 @@ public class GameAndLevelManager : MonoBehaviour
         //Set word
         if (level == 1)
         {
-            matchingWord = "FIRE";
+            matchingWord = "F";
             backgroundImage = backgroundImages[0];
         }
 
@@ -95,7 +95,7 @@ public class GameAndLevelManager : MonoBehaviour
         if (level == 2)
         {
             //WORD = SPARTA
-            matchingWord = "SPARTA";
+            matchingWord = "A";
             backgroundImage = backgroundImages[1];
         }
 
@@ -103,7 +103,7 @@ public class GameAndLevelManager : MonoBehaviour
         if (level == 3)
         {
             //WORD = OLYMPIA
-            matchingWord = "OLYMPIA";
+            matchingWord = "O";
             backgroundImage = backgroundImages[2];
         }
 
@@ -127,7 +127,12 @@ public class GameAndLevelManager : MonoBehaviour
         if (wordCompleted)
         {
             inALevel = false;
-            StartCoroutine(showPrometheus());
+            if (level != 4)
+            {
+                StartCoroutine(showPrometheus());
+            }
+            
+            
         } else
         {
             inALevel = true;
@@ -141,16 +146,31 @@ public class GameAndLevelManager : MonoBehaviour
             {
                 if (level == 1)
                 {
+                    if (levelComplete1 == null)
+                    {
+                        return;
+                    }
+
                     levelComplete1.SetActive(true);
                 }
 
                 if (level == 2)
                 {
+                    if (levelComplete2 == null)
+                    {
+                        return;
+                    }
+
                     levelComplete2.SetActive(true);
                 }
 
                 if (level == 3)
                 {
+                    if (levelComplete3 == null)
+                    {
+                        return;
+                    }
+
                     levelComplete3.SetActive(true);
                 }
 
@@ -187,7 +207,7 @@ public class GameAndLevelManager : MonoBehaviour
             GameManager.Instance.PlayIncorrectAnswerSound();
             // Lose a life
             healthSystem.LoseHealth();
-            Debug.Log("Light a torch!");
+            RemovePoints(200);
             return;
         }
 
@@ -318,15 +338,29 @@ public class GameAndLevelManager : MonoBehaviour
 
     public IEnumerator showPrometheus()
     {
-        while (backgroundImage.GetComponent<SpriteRenderer>().color.a < 3)
+        if (backgroundImage == null)
         {
-            var normalColour = normalBackground.GetComponent<SpriteRenderer>().color;
+            yield break;
+        }
+
+        SpriteRenderer normalRenderer = normalBackground.GetComponent<SpriteRenderer>();
+        SpriteRenderer prometheusRenderer = backgroundImage.GetComponent<SpriteRenderer>();
+
+        while (prometheusRenderer != null && prometheusRenderer.color.a < 3)
+        {
+            if (normalRenderer == null)
+            {
+                yield break;
+            }
+
+            var normalColour = normalRenderer.color;
             normalColour.a -= 0.00001f;
-            var prometheusColour = backgroundImage.GetComponent<SpriteRenderer>().color;
+
+            var prometheusColour = prometheusRenderer.color;
             prometheusColour.a += 0.00001f;
 
-            normalBackground.GetComponent<SpriteRenderer>().color = normalColour;
-            backgroundImage.GetComponent<SpriteRenderer>().color = prometheusColour;
+            normalRenderer.color = normalColour;
+            prometheusRenderer.color = prometheusColour;
 
             yield return new WaitForEndOfFrame();
         }
@@ -357,7 +391,7 @@ public class GameAndLevelManager : MonoBehaviour
 
         if (level == 4)
         {
-            //FINISH THE GAME
+            StopAllCoroutines();
             return;
         }
 
@@ -376,6 +410,18 @@ public class GameAndLevelManager : MonoBehaviour
 
         ResetTorches();
         ResetMessageText();
+    }
+
+    public void AddPoints(int _points)
+    {
+        points += _points;
+        pointsPanel.transform.GetChild(0).GetComponent<Text>().text = "Points: " + points;
+    }
+
+    public void RemovePoints(int _points)
+    {
+        points -= _points;
+        pointsPanel.transform.GetChild(0).GetComponent<Text>().text = "Points: " + points;
     }
 
 }

@@ -12,13 +12,16 @@ EditorBuildSettings:
     path: Assets/test.unity
     guid: 62ba128e7df8fb040b65a051adc1193a
   - enabled: 1
-    path: Assets/IntroScene.unity
+    path: Assets/Scenes/IntroScene.unity
     guid: e91701aa4998c3e46aacd6e616aa1acf
   - enabled: 1
-    path: Assets/Scene2.unity
+    path: Assets/Scenes/LevelScene.unity
     guid: 3a5fdd12d51dd1c4c8e59256c2fffe36
   - enabled: 1
-    path: Assets/GameOver.unity
+    path: Assets/Scenes/GameOver.unity
     guid: ce72958ca9d0914429c72af6026632c4
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: a758625a501fb3d44ba21954d671730b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

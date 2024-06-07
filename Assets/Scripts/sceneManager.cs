@@ -25,15 +25,15 @@ public class sceneManager : MonoBehaviour
     public void loadFirstLevel()
     {
         Debug.Log("Loading back to first level");
-        SceneManager.LoadScene("Scene2");
+        SceneManager.LoadScene("EndScene");
 
 
     }
 
     public void quitGame()
     {
-        Debug.Log("Quitting game");
-        Application.Quit();
-    
+        Debug.Log("Ending");
+        SceneManager.LoadScene("EndScene");
+
     }
 }
