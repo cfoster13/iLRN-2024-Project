@@ -23,7 +23,7 @@ public class LeaderboardUI : MonoBehaviour
         int counter = 1;
         foreach (PlayerScore playerScore in leaderboard)
         {
-            sb.AppendLine(counter + ")" + playerScore.playerName + "        -        " + playerScore.score);
+            sb.AppendLine(counter + ") " + playerScore.playerName + "        -        " + playerScore.score);
             counter++;
         }
 
