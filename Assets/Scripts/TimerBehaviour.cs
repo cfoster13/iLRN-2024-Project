@@ -33,10 +33,10 @@ public class TimerBehaviour : MonoBehaviour
                 bonusPointsText.text = "Bonus Points: " + bonusPoints;
                 if (displayTimer < 10.0f)
                 {
-                    timerText.text = "TIMER: 0" + displayTimer.ToString();
+                    timerText.text = "TIME: 0" + displayTimer.ToString();
                 } else
                 {
-                    timerText.text = "TIMER: " + displayTimer.ToString();
+                    timerText.text = "TIME: " + displayTimer.ToString();
                 }
                 
                 timer = 0.0f;
@@ -50,6 +50,6 @@ public class TimerBehaviour : MonoBehaviour
         displayTimer = 0.0f;
         bonusPoints = 5000;
         bonusPointsText.text = "Bonus Points: " + bonusPoints;
-        timerText.text = "TIMER: 00";
+        timerText.text = "TIME: 00";
     }
 }
